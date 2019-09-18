@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<title>app</title>
+	<link href="css/framework7.min.css" rel="stylesheet">
+	<link href="css/f7-icons.css" rel="stylesheet">
+	<link href="css/material-icons.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+		 
+		 
+		 <section class="panel panel-left panel-cover">
+			
+			 
+			<div class="block bg-blue-menu">
+			 <i class="circle-menu">Alfredo Aguilera</i>
+				 <img src="img/zac_efron_7917_620x698.jpg" class="img-fluid">
+			 </div>
+			 
+			 <div class="list media-list">
+			 <ul>
+				 <li>
+				 <a href="/home/" class="item-link item-content panel-close">
+					 <div class="item-media">
+					 <i class="material-icons">home</i>
+					 </div>
+					 <div class="item-inner">
+						 Inicio
+					 </div>
+					 </a>
+				 </li> 
+				 
+				  <li>
+				 <a href="/recipe/" class="item-link item-content panel-close">
+					 <div class="item-media">
+						 <i class="material-icons">notes</i>
+					 </div>
+					 <div class="item-inner">
+						 Recetas
+					 </div>
+					 </a>
+				 </li> 
+				 
+				  <li>
+				 <a href="/card/" class="item-link item-content panel-close">
+					 <div class="item-media">
+						 <i class="material-icons">favorite</i>
+					 </div>
+					 <div class="item-inner">
+						Favoritos
+					 </div>
+					 </a>
+				 </li> 
+				 
+				<li>
+				 <a href="#" class="item-link item-content panel-close">
+					 <div class="item-media">
+						 <i class="material-icons">fastfood</i>
+					 </div>
+					 <div class="item-inner">
+						Restaurantes
+					 </div>
+					 </a>
+				 </li>
+				
+				 <li>
+				 <a href="#" class="item-link item-content panel-close">
+					 <div class="item-media">
+						<i class="material-icons">face</i>
+					 </div>
+					 <div class="item-inner">
+						Chefs
+					 </div>
+					 </a>
+				 </li>
+				 
+				 <li>
+				 <a href="#" class="item-link item-content panel-close">
+					 <div class="item-media">
+						<i class="material-icons">perm_identity</i>
+					 </div>
+					 <div class="item-inner">
+						Perfil
+					 </div>
+					 </a>
+				 </li>
+			 </ul>
+			 </div>
+		 </section>
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner">
+				<div class="left">
+					<a class="link panel-open" data-panel="left"><i class="material-icons">
+menu
+</i></a>
+				</div>
+              <div class="title text-align-center">The Drop</div>
+            </div>
+          </nav>
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+			  
+			  <div class="swiper-container" data-pagination='{"el": ".swiper-pagination"} ' data-space-between="0" data-slides-per-view="0">
+															 
+    <!-- Slides wrapper -->
+    <div class="swiper-wrapper swiper-init">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/images (1).jpg" class="img-fluid"></div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        
+    </div>
+    <!-- Pagination, if required -->
+    <div class="swiper-pagination"></div>
+</div>
+           <div class="block-title block-title-medium text-color-green">Bienvenido Alfredo</div>
+<div class="block block-strong">
+  <p>Hoy, jueves 12 de Septiembre te tenemos nuevos retos. </p>
+</div>
+			  
+	<div class="swiper-slide"><img src="img/play.jpg" class="img-fluid"></div>
+				  <section id="juegos"> 
+			  <div class="block text-align-center">
+				  <h5>Todos los días te traemos un nuevo reto, preparáte por que el de hoy es mejor que el de ayer. No olvidés invitar a tus amigos para ganar más premios y tendrás más cosas que canjear.</h5>
+				  
+			  <button class="col button button-large button-raised">Jugar</button>
+			  </div>
+			  </section>
+		<div class="swiper-slide"><img src="img/medalla.jpg" class="img-fluid"></div>
+			  <section id="premio">
+		<div class="block text-align-center">
+				  <h1 class="text-color-blue">Felicidades Alfredo</h1>
+			<h5>Fuiste el ganador del reto ayer. Entre tus amigos tu fuiste el cumpliste con el reto y has ganado 500 puntos. Recuerda canjearlos en tu lugar favorito. </h5>
+			
+				  
+			  <button class="col button button-large button-raised">Canjealos</button>
+			  </div> 
+			  </section>
+				  <div class="row">
+				  		<article class="col">
+							
+					  </article>
+					  <article class="col text-align-center text-color-orange">
+		
+						
+					  </article>
+				  </div>
+				  
+
+			  
+			  <a href="/listas/" class="link"></a>
+			  
+          </div><!-- /page content -->
+			
+			
+     	 </section>
+		</div>
+    </div>
+ 
+  <div class="login-screen modal-in">
+    <div class="view">
+      <div class="page">
+        <div class="page-content login-screen-content">
+          <img src="../../examen2/app/img/chef.png" class="foto img-fluid">
+          <div class="block">
+           <h1>Welcome to Recipe App</h1>
+  <p>Here comes paragraph within content block. Donec et nulla auctor massa pharetra adipiscing ut sit amet sem. Suspendisse molestie velit vitae mattis tincidunt. Ut sit amet quam mollis, vulputate turpis vel, sagittis felis. </p>
+<a href="/home/" class="link"><button class="col button button-raised button-fill button-round">Continue</button></a>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+	
+	
+	<script src="js/framework7.min.js"></script>
+	<script src="js/my-app.js"></script>
+</body>
+</html>

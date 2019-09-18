@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<title>app</title>
+	<link href="css/framework7.min.css" rel="stylesheet">
+	<link href="css/f7-icons.css" rel="stylesheet">
+	<link href="css/material-icons.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+		 
+		 
+		 <section class="panel panel-left panel-cover">
+			
+			 
+			<div class="block bg-blue-menu">
+			 <i class="circle-menu">Alfredo Aguilera</i>
+				 <img src="img/zac_efron_7917_620x698.jpg" class="img-fluid">
+			 </div>
+			 
+			 <div class="list media-list">
+			 <ul>
+				 <li>
+				 <a href="/home/" class="item-link item-content panel-close">
+					 <div class="item-media">
+					 <i class="material-icons">home</i>
+					 </div>
+					 <div class="item-inner">
+						 Inicio
+					 </div>
+					 </a>
+				 </li> 
+				 
+				  <li>
+				 <a href="/recipe/" class="item-link item-content panel-close">
+					 <div class="item-media">
+						 <i class="material-icons">notes</i>
+					 </div>
+					 <div class="item-inner">
+						 Recetas
+					 </div>
+					 </a>
+				 </li> 
+				 
+				  <li>
+				 <a href="/card/" class="item-link item-content panel-close">
+					 <div class="item-media">
+						 <i class="material-icons">favorite</i>
+					 </div>
+					 <div class="item-inner">
+						Favoritos
+					 </div>
+					 </a>
+				 </li> 
+				 
+				<li>
+				 <a href="#" class="item-link item-content panel-close">
+					 <div class="item-media">
+						 <i class="material-icons">fastfood</i>
+					 </div>
+					 <div class="item-inner">
+						Restaurantes
+					 </div>
+					 </a>
+				 </li>
+				
+				 <li>
+				 <a href="#" class="item-link item-content panel-close">
+					 <div class="item-media">
+						<i class="material-icons">face</i>
+					 </div>
+					 <div class="item-inner">
+						Chefs
+					 </div>
+					 </a>
+				 </li>
+				 
+				 <li>
+				 <a href="#" class="item-link item-content panel-close">
+					 <div class="item-media">
+						<i class="material-icons">perm_identity</i>
+					 </div>
+					 <div class="item-inner">
+						Perfil
+					 </div>
+					 </a>
+				 </li>
+			 </ul>
+			 </div>
+			 
+		 </section>
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner">
+				<div class="left">
+					<a class="link panel-open" data-panel="left"><i class="material-icons">menu</i></a>
+				</div>
+              <div class="title text-align-center">Recipe App</div>
+            </div>
+          </nav>
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+          <div class="row">
+          	<article class="col-25">
+          	<img src="img/burger.jpg" class="img-fluid food">
+          	</article>
+          	<article class="col-25">
+          	<img src="img/cupcake.jpg" class="img-fluid food">
+          	</article>
+          	<article class="col-25">
+          	<img src="img/pizza.jpg" class="img-fluid food">
+          	</article>
+          	<article class="col-25">
+          	<img src="img/china.png" class="img-fluid food">
+          	</article>
+          </div>
+          
+          <section id="rec">
+           <div>
+             <a href="/recipe/" class="link"> 
+             <h2>Trending Recipes</h2>
+              </a>
+               <div data-pagination='{"el": ".swiper-pagination"}' data-space-between="20" data-slides-per-view="2" class="swiper-container swiper-init demo-swiper">
+  <div class="swiper-pagination"></div>
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="img/15COOKING-PASTA-articleLarge-v2.jpg" class="img-fluid"></div>
+    <div class="swiper-slide"><img src="img/merlin_160015383_4bd71410-dc4f-487f-92e6-c664995b50e0-threeByTwoMediumAt2X.jpg" class="img-fluid"></div>
+    <div class="swiper-slide"><img src="img/08CHICKEN-ENCHILADA-articleLarge.jpg" class="img-fluid"></div>
+    <div class="swiper-slide"><img src="img/cookie.jpg" class="img-fluid"></div>
+    <div class="swiper-slide"><img src="img/walnut_lemon_bars_main.jpg" class="img-fluid"></div>
+  </div>
+</div>
+      </section>
+     
+      <section id="bloquess">
+      <div class="block"> 
+       <div class="row">
+          	<article class="col-25">
+          	<button class="col button button-raised button-fill button-round">Comida</button>
+          	</article>      
+             <article class="col-25">
+          	<button class="col button button-raised button-fill button-round">Postres</button>
+          	</article>  
+            <article class="col-25">
+          	<button class="col button button-raised button-fill button-round">Fácil</button>
+          	</article>  <article class="col-25">
+          	<button class="col button button-raised button-fill button-round">Rapido</button>
+          	</article>  
+             </div>
+             
+             <div class="row">
+          	<article class="col-25">
+          	<button class="col button button-raised button-fill button-round">Salado</button>
+          	</article>      
+             <article class="col-25">
+          	<button class="col button button-raised button-fill button-round">Principiantes</button>
+          	</article>  
+            <article class="col-25">
+          	<button class="col button button-raised button-fill button-round">Oriental</button>
+          	</article>  <article class="col-25">
+          	<button class="col button button-raised button-fill button-round">Pastas</button>
+          	</article>  
+             </div>
+             
+             <div class="row">
+          	<article class="col-25">
+          	<button class="col button button-raised button-fill button-round">Sushi</button>
+          	</article>      
+             <article class="col-25">
+          	<button class="col button button-raised button-fill button-round">Pizza</button>
+          	</article>  
+            <article class="col-25">
+          	<button class="col button button-raised button-fill button-round">Familia</button>
+          	</article>  <article class="col-25">
+          	<button class="col button button-raised button-fill button-round">Galletas</button>
+          	</article>  
+             </div>
+             <form class="searchbar">
+          <div class="searchbar-inner">
+            <div class="searchbar-input-wrap">
+              <input type="search" placeholder="Search">
+              <i class="searchbar-icon"></i>
+              <span class="input-clear-button"></span>
+            </div>
+            <span class="searchbar-disable-button if-not-aurora">Cancel</span>
+          </div>
+        </form>
+              </div>
+              </div>
+             </section>
+			  
+	<script src="js/framework7.min.js"></script>
+	<script src="js/my-app.js"></script>
+</body>
+</html>
